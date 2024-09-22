@@ -1,8 +1,7 @@
 const App = () => {
   return (
-    <div className="bg-[#ff4500]">
+    <div>
       <h1>Git Hub Coders</h1>
-      <button className="btn">Click</button>
     </div>
   )
 }
