@@ -1,11 +1,19 @@
-import React from 'react'
+import {BrowserRouter as Router, Route} from 'react-router-dom' 
+import Navbar from './components/layout/Navbar'
 
-export default function GitHUbCoders() {
+function App() {
   return (
-    <div>
-      <h1>GitHubCoders</h1>
-      <button>Click</button>
-    </div>
+    <Router>
+      <div className="container">
+        <Navbar />  
+        <main className='sub-container'>
+          Content
+        </main>
+      </div>
+      
+    </Router>
   )
 }
+
+export default App
 
