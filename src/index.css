@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -21,7 +22,7 @@ section {
   gap: 1rem;
 }
 
-section div {
+section div img{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -33,6 +34,7 @@ section div h2 {
 
 section div a {
   color: #87ceeb;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
